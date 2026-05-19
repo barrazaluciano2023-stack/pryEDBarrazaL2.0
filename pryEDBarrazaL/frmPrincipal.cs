@@ -90,5 +90,11 @@ namespace pryEDBarrazaL
             frmListDoble frmListaDoble = new frmListDoble();
             frmListaDoble.ShowDialog();
         }
+
+        private void arbolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmArbolBinario frmArbolBinario = new frmArbolBinario();
+            frmArbolBinario.ShowDialog();
+        }
     }
 }
