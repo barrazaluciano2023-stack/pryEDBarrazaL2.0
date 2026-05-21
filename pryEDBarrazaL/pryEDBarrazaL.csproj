@@ -53,6 +53,18 @@
     <Compile Include="clsListaSimple.cs" />
     <Compile Include="clsNodo.cs" />
     <Compile Include="clsPila.cs" />
+    <Compile Include="frmConsultaConOperaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaConOperaciones.Designer.cs">
+      <DependentUpon>frmConsultaConOperaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaBaseDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaBaseDatos.Designer.cs">
+      <DependentUpon>frmConsultaBaseDatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +83,18 @@
     <Compile Include="frmCola.Designer.cs">
       <DependentUpon>frmCola.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmConsultaTabla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaTabla.Designer.cs">
+      <DependentUpon>frmConsultaTabla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGrafo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGrafo.Designer.cs">
+      <DependentUpon>frmGrafo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListaSimple.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +106,12 @@
     </Compile>
     <Compile Include="frmListDoble.Designer.cs">
       <DependentUpon>frmListDoble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperaciones.Designer.cs">
+      <DependentUpon>frmOperaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPila.cs">
       <SubType>Form</SubType>
@@ -121,6 +151,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmConsultaConOperaciones.resx">
+      <DependentUpon>frmConsultaConOperaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaBaseDatos.resx">
+      <DependentUpon>frmConsultaBaseDatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAlumnos.resx">
       <DependentUpon>frmAlumnos.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,11 +166,20 @@
     <EmbeddedResource Include="frmCola.resx">
       <DependentUpon>frmCola.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaTabla.resx">
+      <DependentUpon>frmConsultaTabla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGrafo.resx">
+      <DependentUpon>frmGrafo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListaSimple.resx">
       <DependentUpon>frmListaSimple.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListDoble.resx">
       <DependentUpon>frmListDoble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperaciones.resx">
+      <DependentUpon>frmOperaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPila.resx">
       <DependentUpon>frmPila.cs</DependentUpon>
@@ -194,6 +239,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="lista doble.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafo-a1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

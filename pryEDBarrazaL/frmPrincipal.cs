@@ -96,5 +96,35 @@ namespace pryEDBarrazaL
             frmArbolBinario frmArbolBinario = new frmArbolBinario();
             frmArbolBinario.ShowDialog();
         }
+
+        private void grafoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGrafo frmGrafo = new frmGrafo();
+            frmGrafo.ShowDialog();
+        }
+
+        private void consultaDeUnaTablaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaTabla frmConsultaTabla = new frmConsultaTabla();
+            frmConsultaTabla.ShowDialog();
+        }
+
+        private void consultaDeBaseDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaBaseDatos frmConsultaBaseDatos = new frmConsultaBaseDatos();
+            frmConsultaBaseDatos.ShowDialog();
+        }
+
+        private void operacionesEnBaseDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOperaciones frmOperaciones = new frmOperaciones();
+            frmOperaciones.ShowDialog();
+        }
+
+        private void consultasVariasConOperacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaConOperaciones frmConsultaConOperaciones = new frmConsultaConOperaciones();
+            frmConsultaConOperaciones.ShowDialog();
+        }
     }
 }
