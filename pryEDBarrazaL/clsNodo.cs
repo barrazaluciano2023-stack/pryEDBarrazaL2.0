@@ -14,6 +14,8 @@ namespace pryEDBarrazaL
         private String tra;
         private clsNodo sig;
         private clsNodo ant;
+        private clsNodo izquierdo;
+        private clsNodo derecho;
         public Int32 Codigo
         {
             get { return cod; }
@@ -43,15 +45,14 @@ namespace pryEDBarrazaL
         }
         public clsNodo Izquierdo
         {
-            get { return ant; }
-            set { ant = value; }
-
+            get { return izquierdo; }
+            set { izquierdo = value; }
         }
-        public clsNodo Derecho 
-        {
-            get { return sig; }
-            set { sig = value; }
 
+        public clsNodo Derecho
+        {
+            get { return derecho; }
+            set { derecho = value; }
         }
     }
 }
